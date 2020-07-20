@@ -10,12 +10,12 @@ In your own words, what is a computer really doing whenever you type a letter on
 
 In your own words, how do computers use input and output to create experiences? (250 words max)
 
-⁃	.
+⁃	Computers use input/output to create experiences by taking input signals (wether a press of a key, click of a mouse or tap of a screen) and looking through it's memory for an interpretation of the signal and then outputting the actionable commands in a visual way on the screen. 
 
 
 Explain why software products are essentially “infinitely reproducible nothings.” (150 words max)
 
-⁃	The reason why software products are essentially "Infinitely reproducible nothings" is because they cost nearly nothing to create/recreate and are everywhere.
+⁃	The reason why software products are essentially "Infinitely reproducible nothings" is because they are almost everywhere and cost nearly nothing to create/recreate.
 
 
 Explain in your own words how code becomes software. (150 words max)
@@ -45,7 +45,7 @@ In your own words explain data and how it relates to code. (100 Words max)
 
 What is a framework? (150 words max)
 
-⁃	A framework is a collection of pre written code that can be used a s blueprint when developing software. Examples of frameworks are react, django, vue, and gin.
+⁃	A framework is a collection of pre written code that can be used a s blueprint when developing software. Examples of frameworks are React, Django, Vue, and Gin.
 
 
 What is debugging? (150 words max)
@@ -55,6 +55,6 @@ What is debugging? (150 words max)
 
 Now, with more of an understanding of what code is, why do you want to learn how to code? (500 words max)
 
-⁃	.
+⁃	The reason why I want to learn how to code is because I wanted to expand my skillset to embark on a new path life as a software developer. I feel that a career in software development will prepare with the necessary knowledge and skills to keep up and adapt to the current tech-heavy environment and dynamic digital future. I also believe that being a Black Latinx person with a background in PR and Marketing will bring some diversity of ideas, experience and perspective to the future code I end up working on.
 
 
