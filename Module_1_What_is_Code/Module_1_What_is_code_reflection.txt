@@ -1,55 +1,60 @@
+
 Module 1: What is code? Reading and reflection.
 
 Module 1 Objective: To read and reflect on the nature of code and creation through digitized data and software. 
 
 In your own words, what is a computer really doing whenever you type a letter on a keyboard?(150 words max)
-⁃	.
+
+⁃	When a key on a keyboard is pressed the computer interprets it as a signal to then look through its memory for an image version representing the key. After identifying the correct inputted lines/circles, the computer renders in the memory that handles the screen. 
+
 
 In your own words, how do computers use input and output to create experiences? (250 words max)
+
 ⁃	.
+
 
 Explain why software products are essentially “infinitely reproducible nothings.” (150 words max)
-⁃	.
+
+⁃	The reason why software products are essentially "Infinitely reproducible nothings" is because they cost nearly nothing to create/recreate and are everywhere.
+
 
 Explain in your own words how code becomes software. (150 words max)
-⁃	.
+
+⁃	The computer compiles/runs the code as a list of instructions carried out by branching logic gates which is then turned into software.
+
 
 Explain “algorithms” in your own words. (150 words max)
-⁃	.
+
+⁃	An algorithms is a process that tells computers how to go about solving a problem. 
+
 
 Explain the DRY principle. (100 words max)
-⁃	.
+
+⁃	DRY or Don't Repeat Yourself is a programming principal aiming to reduce repetition in code. This is done by naming/running something once and letting the computer repeat itself.
+
 
 In your own words, what is object-oriented programming? (100 words max)
-⁃	.
+
+⁃	Object-oriented programming is way in which programers can file/classify/structure code into simple reusable classes.
+
 
 In your own words explain data and how it relates to code. (100 Words max)
-⁃	.
+
+⁃	Data is the output of software everything from emails, social media posts, fitness trackers and even Word documents. Without code no software can be made produce data and without data no new code can be compiled to make the software that analyze data.
+
 
 What is a framework? (150 words max)
-⁃	.
+
+⁃	A framework is a collection of pre written code that can be used a s blueprint when developing software. Examples of frameworks are react, django, vue, and gin.
+
 
 What is debugging? (150 words max)
-⁃	.
+
+⁃	Debugging is the process where programmers go through their code to find and remove any bugs that may cause problems.
+
 
 Now, with more of an understanding of what code is, why do you want to learn how to code? (500 words max)
+
 ⁃	.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
