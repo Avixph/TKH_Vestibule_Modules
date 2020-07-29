@@ -1,0 +1,19 @@
+
+Module 2: Git Bash Reflection
+
+In your own words, what is Git and how is it different than GitHub?
+
+⁃	Git is an open source version control system that's used in software development for managing/storing/Keeping track of computer files. Github is an online service for managing/hosting git repositories created with git or on GitHub directly.
+
+ 
+In your own words, why use the terminal?
+
+⁃	Using the terminal is a great way to gain greater control/understanding over system functions such as looking through a directory, creating/copying a file and other complex operations.
+
+In your own words, explain 3 benefits of version control in your own words?
+
+⁃	Some benefits of version control include:
+	⁃Allowing you to compare/identify/merge changes to your codebase. 
+	⁃Allowing multiple people to work on the same file concurrently or a branch off.
+	⁃Allowing you to keep track of current/past versions of your codebase in order to facilitate project delivery.
+
