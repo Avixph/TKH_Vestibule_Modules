@@ -5,8 +5,8 @@ This project includes the HTML files for My portfolio site for **TKH's 2020 Inno
 
 **Index**
 >-Module3/
->>	-css/
->>	-images/
->>	-js/
->>      -index.html
->>      -Resume.html
+>>-css/
+>>-images/
+>>-js/
+>>-index.html
+>>-Resume.html
