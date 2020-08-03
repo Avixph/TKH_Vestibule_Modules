@@ -1,0 +1,343 @@
+:root{
+    --first-color: #f7c8a2d0;
+    --second-color: #f7e5d7;
+    --third-color: #b9473d;
+    --forth-color: rgba(0, 0, 0, 0.904);
+    --fifth-color: #777;
+    --first-font: 'Raleway';
+    --second-font: 'Merriweather'
+    --shadow: 0 3px 6px rgba(0,0,0,0,16), 0 3px 6px rgba(0,0,0,0,23)
+}
+
+
+html{font-size: calc(1em+1vw)}
+
+button{font-size: inherit}
+
+input{font-size: inherit;}
+
+body{
+    font-family: var(--second-font);
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    background-color: var(--first-color);
+    background-image: url(../images/Paper_Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 5.75rem;
+    display: grid;
+    justify-items:center;
+}
+
+/*banner*/
+.banner{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    list-style-type: none;
+    background-image: url(../images/Ophanim_by_Francis_Coulombe.png);
+    background-color: var(--forth-color);
+    background-size: inherit;
+    background-blend-mode: multiply;
+    position: fixed;
+    background-position: center;
+    padding-bottom: 1em 0;
+    top: 0;
+    color: var(--third-color);
+    box-shadow: var(--shadow);
+}
+
+.title{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 1.5em;
+    text-align: center;
+    font-family: var(--first-font);
+    font-size: .75em;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-image: url();
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+a{
+    color: var(--third-color);
+    width: 100px;
+    text-decoration: none;
+}
+
+/*The :hover selector is used to select elements when you mouse over them.*/
+a:hover{
+    color: var(--first-color);
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+}
+
+.nav li{
+    display: inline;
+    margin: 1rem;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+/*about-me*/
+.about-me{
+    display: flex;
+    width: 80vw;
+    padding: 1rem;
+    margin: .5rem auto;
+    border-radius: 15px;
+    
+    background-color: var(--second-color);
+    box-shadow: var(--shadow);
+}
+
+.about-me h2{
+    font-family: var(--first-font);
+    font-weight: bolder;
+    font-size: 1.65em;
+}
+
+.profile{
+    padding: 1em;
+}
+
+.profile-pic img{
+    border-radius: 15px;
+}
+
+.about-me-text{
+    padding: 1em;
+}
+
+
+/*social-media*/
+.social-media li{
+    padding: .9em;
+    align-items: center;
+    display: inline;   
+}
+.social-media ul{
+    padding: .3rem;
+    list-style-type: none;
+}
+
+/*career*/
+.career{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: .5rem auto;
+    width: calc(80vw+2rem);
+}
+
+.career h2{
+    font-family: var(--first-font);
+    font-weight: bolder;
+    font-size: 1.55em;
+}
+
+.goals{
+    width: 38.5vw;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-right: 1rem;
+    background-color: var(--second-color);
+    box-shadow: var(--shadow);
+}
+
+.skills{
+    width: 38.5vw;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: var(--second-color);
+    box-shadow: var(--shadow);
+}
+
+.skills .tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted var(--forth-color);
+}
+
+.skills .tooltip .tooltip-text{
+    visibility: hidden;
+    width: 140px;
+    border-radius: 15px;
+    background-color: var(--third-color);
+    color: #fff;
+    text-align: center;
+    padding: .85px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+
+.skills .tooltip:hover .tooltip-text{
+    visibility: visible;
+}
+
+/*projects*/
+.projects{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80vw;
+    padding: 1rem;
+    margin: 5rem;
+    border-radius: 15px;
+    background-color: var(--second-color);
+    box-shadow: var(--shadow);
+}
+
+.projects h2{
+    width: 100%;
+    margin: 1rem;
+    font-family: var(--first-font);
+    font-weight: bolder;
+    font-size: 1.65em;
+}
+
+.projects h3{
+    font-family: var(--first-font);
+}
+
+.project{
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    width: 25%;
+    box-shadow: var(--shadow);
+    color: #fff;
+    background-color: var(--third-color);
+    border-radius: 8px;
+}
+
+.project a{
+    color: #fff;
+}
+
+/*CSS transitions allows you to change property values smoothly, over a given duration.*/
+.project:hover{
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 14px 28px rgba(0,0,0,0,.25),0 10px 10px rgba(0,0,0,0,.22);
+}
+
+
+/*contact*/
+.contact-form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 15px;
+    background-color: var(--second-color);
+    box-shadow: var(--shadow);
+}
+
+.contact-form h2{
+    font-family: var(--first-font);
+    font-weight: bolder;
+    font-size: 1.65em;
+}
+
+.contact{
+    text-align: left;
+    margin: 0 auto;
+}
+
+
+/*form-styles*/
+.input{
+    min-width: 30vw;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: .5rem;
+}
+
+/*You can specify that a specific input element should be affected by attribute.*/
+.input[type=submit]{
+    background-color: var(--third-color);
+    color: white;
+    padding: 10px;
+    width: calc(30vw+.5rem);
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
+
+input[type=submit]:hover{
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 14px 28px rgba(0,0,0,0,.25),0 10px 10px rgba(0,0,0,0,.22);
+}
+
+/*resume*/
+.experience{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80vw;
+    margin: 5rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: var(--second-color);
+    box-shadow: var(--shadow);
+}
+
+.experience h2{
+    font-family: var(--first-font);
+    font-weight: bolder;
+    font-size: 1.65em;
+}
+
+.job{
+    padding: .5rem;
+}
+
+/*education*/
+.education{
+    width: 80vw;
+    margin: 5rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: var(--second-color);
+    box-shadow: var(--shadow);
+}
+
+.education h2{ 
+    font-family: var(--first-font);
+    font-weight: bolder;
+    font-size: 1.65em;
+}
+
+.school{
+    padding: .5rem;
+}
+
+/*footer*/
+.footer{
+    margin-top: 1rem;
+    width: 100%;
+    background-color: var(--forth-color);
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
