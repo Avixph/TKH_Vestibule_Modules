@@ -1,4 +1,4 @@
-
+{
 
 {
 
@@ -31,14 +31,6 @@
 }
 
 
-{
-
-    let Sports_Teeam = {
-        
-    };
-
-}
-
 
 {
 
@@ -65,4 +57,6 @@
     Animal.diet_type()
     Animal.size = "around 5 feet";
     Animal.family
+}
+
 }
