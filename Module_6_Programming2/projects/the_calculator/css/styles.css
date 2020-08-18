@@ -39,12 +39,14 @@ body{
 }
 
 main{
-    
+
+    justify-content: center;
     padding: 2rem;
     border-radius: 50px;
     box-shadow: var(--shadow);
     background: linear-gradient(145deg, #f7ece4, #d0c7c0);
     background-color: var(--second-color);
+    border-bottom: 15px solid var(--second-color);
     
 }
 
